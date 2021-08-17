@@ -1,0 +1,132 @@
+.card {
+    width: 25.4%;
+    min-height: 325px;
+    background-color: var(--color-primary);
+    margin: 24px;
+    box-shadow: 1px 14px 34px 0px rgba(188,183,183,0.12);
+    -webkit-box-shadow: 1px 14px 34px 0px rgba(188,183,183,0.12);
+    -moz-box-shadow: 1px 14px 34px 0px rgba(188,183,183,0.12);
+}
+
+.card#more-portfolio{
+    background-color: unset;
+    box-shadow: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__image img {
+    width: 100%;
+}
+
+.card__content {
+    padding: 12px 20px 20px 20px;
+}
+
+.card__content__tag {
+    font-size: .77em;
+    color: var(--color-secondary--40);
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.card__content__title {
+    font-size: .88em;
+}
+.card#more-portfolio .card__more {
+    margin: 0 auto;
+}
+
+.card#more-portfolio .card__more__text {
+    color: var(--color-secondary--40);
+    font-size: .77em;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card__more__text > i {
+    opacity: .5;
+}
+
+
+
+
+@media screen and (min-width:0px) and (max-width:367px ) {
+    .card {
+        width: 100%;
+        min-height: 270px;
+    }
+
+    .card:nth-child(4),
+    .card:nth-child(5) {
+        display: none;
+    }
+
+    .card#more-portfolio{
+        min-height: 10%;
+    }
+
+
+    
+}
+
+
+@media screen and (min-width:368px ) and (max-width:767px) {
+    .card {
+        width: 80%;
+        min-height: 300px;
+     }
+
+    .card:nth-child(4),
+    .card:nth-child(5) {
+        display: none;
+    }
+
+    .card#more-portfolio{
+        min-height: 10%;
+    }
+    
+    
+}
+
+@media screen and (min-width:768px) and (max-width:960px ) {
+    
+     .card {
+        width: 40%;
+        min-height: 300px;
+     } 
+     
+     .card#more-portfolio{
+        min-height: 200px;
+    }
+
+
+
+    .card:nth-child(4),
+    .card:nth-child(5) {
+        display: none;
+    }
+    
+
+}
+
+@media screen and (min-width:961px ) and (max-width:1040px )    {
+
+      .card {
+        width: 40%;
+        min-height: 360px;
+        } 
+        
+        .card#more-portfolio{
+        min-height: 200px;
+    }
+
+
+
+    .card:nth-child(4),
+    .card:nth-child(5) {
+        display: none;
+    }
+    
+}

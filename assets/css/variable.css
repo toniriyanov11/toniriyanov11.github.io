@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+
+:root {
+    --color-primary : #ffffff;
+    --color-primary--40 : #ffffff65;
+    --color-primary--20 : #ffffff34;
+    --color-primary--02 : rgba(255, 255, 255, 0.024);
+    --color-secondary: #121212;
+    --color-secondary--50: #12121299;
+    --color-secondary--40: #12121267;
+    --color-secondary--30: #1212124b;
+    --color-secondary--20: #12121234;
+    --color-secondary--10: #1212121c;
+}
