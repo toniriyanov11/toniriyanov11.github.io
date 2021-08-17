@@ -378,7 +378,12 @@ section#contact .section__content {
 .contact__account__text {
     display: inline-block;
     font-size: .88em;
-    opacity: .4;
+    color: var(--color-primary--40);
+    border-color: var(--color-primary--40);
+}
+
+.contact__account__text > i {
+    margin-right: .3em;
 }
 
 .contact__acount {
@@ -637,7 +642,6 @@ footer {
      /* contact */
      section#contact .section__content {
         display: flex;
-        flex-direction: column;
         width: 90%;
         margin: auto;
     }
@@ -747,7 +751,6 @@ footer {
     /* contact */
     section#contact .section__content {
     display: flex;
-    flex-direction: column;
     width: 90%;
     margin: auto;
     }
@@ -845,7 +848,6 @@ footer {
      /* contact */
      section#contact .section__content {
         display: flex;
-        flex-direction: column;
         width: 90%;
         margin: auto;
     }
