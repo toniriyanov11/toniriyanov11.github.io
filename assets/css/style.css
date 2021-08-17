@@ -72,13 +72,10 @@ i {
     content: url('/assets/img/logo.svg');
 }
 
-.ic-logo-mobile {
-    content: url('/assets/img/logo-mobile.svg');
+.ic-logo-white {
+    content: url('/assets/img/logo-white.svg');
 }
 
-.ic-logo-mobile-white {
-    content: url('/assets/img/logo-mobile-white.svg');
-}
 
 .ic-hamburger {
     content: url('/assets/img/ic-hamburger.svg');

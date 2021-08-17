@@ -1,6 +1,6 @@
 const icBurger = document.querySelector(".ic-hamburger")
 const icClose = document.querySelector(".ic-close")
-const logo = document.querySelector(".ic-logo-mobile")
+const logo = document.querySelector(".nav__mobile  .nav__logo > .ic-logo")
 const navMobile = document.querySelector(".nav__mobile nav")
 const navMobileLink = document.querySelectorAll(".nav__mobile nav a")
 const header = document.querySelector("header")
@@ -55,24 +55,22 @@ function handleClickNavMobile() {
 function showNavMobile() {
     icBurger.style.display = "none"
     icClose.style.display = "block"
-    logo.classList.remove("ic-logo-mobile")
-    logo.classList.add("ic-logo-mobile-white")
+    logo.classList.remove("ic-logo")
+    logo.classList.add("ic-logo-white")
     header.classList.add("header-mobile-active")
     navMobile.classList.add("show")
     navMobile.classList.remove("hidden")
-    body.style.overflow = "hidden"
     
 }
 
 function hideNavMobile() {
     icClose.style.display = "none"
     icBurger.style.display = "block"
-    logo.classList.add("ic-logo-mobile")
-    logo.classList.remove("ic-logo-mobile-white")
+    logo.classList.add("ic-logo")
+    logo.classList.remove("ic-logo-white")
     header.classList.remove("header-mobile-active")
     navMobile.classList.add("hidden")
     navMobile.classList.remove("show")
-    body.style.overflow = "auto"
 }
 //end of nav
 
