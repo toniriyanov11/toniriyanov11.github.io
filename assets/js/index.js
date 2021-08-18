@@ -5,6 +5,7 @@ const navMobile = document.querySelector(".nav__mobile nav")
 const navMobileLink = document.querySelectorAll(".nav__mobile nav a")
 const header = document.querySelector("header")
 const body = document.querySelector("body")
+const backtotop = document.querySelector(".back__to__top")
 
 //timeline
 const school = document.getElementById("school")
@@ -22,6 +23,7 @@ setBar()
 handleClickNavMobile()
 handleTimeline()
 handleSkillset()
+handleBackToTopButton()
 handleBackToTop()
 window.addEventListener("scroll",function(e){
     handleBackToTop()
@@ -152,4 +154,10 @@ function handleBackToTop(){
     }else {
         btp.classList.add("hide")
     }
+}
+
+function handleBackToTopButton() {
+    backtotop.addEventListener('click', e => {
+        window.scrollTo(null,0)
+    })
 }
