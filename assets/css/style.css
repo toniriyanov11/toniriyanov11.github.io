@@ -262,21 +262,27 @@ header .nav__mobile{
 }
 
 .hero__action {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 4em;
-}
-
-.hero__action button {
-    width: 150px;
     margin-top: 6.3em;
 }
 
-.hero__action button:nth-child(2) {
+.hero__action a {
+    text-decoration: none;
+    font-size: .77em;
+}
+
+.hero__action button,
+.hero__action a {
+    display: inline-block;
+    width: 12em;
+    text-align: center;
+}
+
+.hero__action a:nth-child(2) {
     margin-left: 1.9em;
 }
 
-.hero__action button:nth-child(2) i {
+.hero__action a:nth-child(2) i {
     vertical-align: middle;
     margin: 0 5px;
 }
