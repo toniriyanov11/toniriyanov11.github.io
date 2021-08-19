@@ -12,4 +12,31 @@
     --color-secondary--30: #1212124b;
     --color-secondary--20: #12121234;
     --color-secondary--10: #1212121c;
+    --animation-bottom-fade-in--25 : 2s cubic-bezier(0.19, 1, 0.22, 1) 0.25s 1 normal backwards running BottomFadeIn;
+    --animation-bottom-fade-in--50 : 2s cubic-bezier(0.19, 1, 0.22, 1) 0.5s 1 normal backwards running BottomFadeIn;
+    --animation-bottom-fade-in--75 : 2s cubic-bezier(0.19, 1, 0.22, 1) 0.75s 1 normal backwards running BottomFadeIn;
+    --animation-fade-in :  .7s cubic-bezier(0.2, 1, 0.3, 2) .5s 1 normal none running BottomFadeIn
 }
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes BottomFadeIn {
+    0% {
+        transform: translateY(3em);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+        

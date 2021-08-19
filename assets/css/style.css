@@ -239,6 +239,7 @@ header .nav__mobile{
     font-size: 1.1em;
     margin-bottom: 0;
     font-weight: 600;
+    animation: var(--animation-bottom-fade-in--25)
 }
 
 .hero__role {
@@ -246,16 +247,20 @@ header .nav__mobile{
     font-weight: 500;
     color: var(--color-secondary--50);
     margin-top: 5px;
+    animation:  var(--animation-bottom-fade-in--25)
 }
 
 .hero__desc {
+    position: relative;
     font-size: 3.3em;
     margin-top: 3.25rem;
     font-weight: 600;
     width: 75%;
     line-height: 66px;
     letter-spacing: -0.03em;
+    animation:   var(--animation-bottom-fade-in--50)
 }
+
 
 .hero__desc > span {
     font-weight: 800;
@@ -264,6 +269,7 @@ header .nav__mobile{
 .hero__action {
     margin-bottom: 4em;
     margin-top: 6.3em;
+    animation:   var(--animation-bottom-fade-in--75)
 }
 
 .hero__action a {
