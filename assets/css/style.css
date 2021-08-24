@@ -180,7 +180,7 @@ header .nav__mobile{
 }
 
 .nav__logo > i {
-    width: 90%;
+    width: 75%;
 }
 
 
@@ -461,7 +461,7 @@ footer {
 }
 
 .footer__logo > img {
-    width: 90%;
+    width: 75%;
 }
 
 .footer__social__media > a{
