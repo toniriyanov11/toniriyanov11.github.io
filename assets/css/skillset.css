@@ -1,8 +1,9 @@
 .skillset {
-    width: 30%;
     position: relative;
-    display: inline-block;
     min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
 }
 
 .hide {
@@ -21,17 +22,19 @@
 
 
 .skillset__title h5 i:nth-child(2) {
-    margin-left: 18px;
+    margin-right: 10px;
+    float: right;
 }
 
 .skillset__content {
     font-size: .88em;
     margin-left: 2em;
+    width: 80%;
 }
 
 .skillset__content > div {
     margin-bottom: 20px;
-    width: 60%;
+
 }
 
 .skillset__content__text{
@@ -105,57 +108,37 @@
 
 @media screen and (min-width:0px) and (max-width:367px ) {
     .skillset {
-        width: 100%;
         min-height: unset;
         margin: 15px auto;
+        flex-basis: 100%;
     }
-
-    .skillset__content > div {
-        width: 90%;
-    }
-
     
 }
 
 @media screen and (min-width:368px ) and (max-width:767px) {
     .skillset {
-        width: 80%;
         min-height: unset;
         margin: 15px auto;
-    }
-
-    .skillset__content > div {
-        width: 90%;
+        flex-basis: 100%;
+        width: 80%;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:960px ) {
     .skillset {
-        width: 50%;
         min-height: unset;
         margin: 15px 0;
+        flex-basis: 100%;
+        width: 50%;
     }   
 
-    .skillset__content > div {
-        width: 100%;
-    }
 }
 
 @media screen and (min-width:961px ) and (max-width:1040px )    {
     .skillset {
-        width: 100%;
-        min-height: unset;
-        margin: 15px 0;
-    }
-
-    .skillset {
-        width: 40%;
+        width: 50%;
         min-height: unset;
         margin: 15px 0;
     }   
-
-    .skillset__content > div {
-        width: 100%;
-    }
 
 }
