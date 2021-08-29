@@ -309,8 +309,7 @@ header .nav__mobile{
 .about__desc__photo {
     flex-basis: 50%;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    margin: auto;
 }
 
 .about__desc__photo > img {
