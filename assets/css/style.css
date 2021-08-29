@@ -314,6 +314,7 @@ header .nav__mobile{
 
 .about__desc__photo > img {
     width: 50%;
+    border-radius: .7em;
 }
 
 .about__desc__text {
