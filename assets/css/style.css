@@ -593,6 +593,10 @@ footer {
         display: none;
     }
 
+    .nav__logo > i {
+        width: 70%;
+    }
+
     /* end of header */
 
     /* hero */
@@ -681,7 +685,7 @@ footer {
     }
     
     .footer__logo > img {
-        width: 3.5em;
+        width: 3em;
     }
 
     .footer__social__media {
