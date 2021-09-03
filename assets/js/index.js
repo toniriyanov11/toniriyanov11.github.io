@@ -28,7 +28,7 @@ handleBackToTop()
 window.addEventListener("scroll",function(e){
     handleBackToTop()
 })
-
+handleClickMyEmail()
 
 
 
@@ -160,4 +160,17 @@ function handleBackToTopButton() {
     backtotop.addEventListener('click', e => {
         window.scrollTo(null,0)
     })
+}
+
+//copy email to clipboard
+
+function handleClickMyEmail() {
+    const emailBtn = document.querySelector("#my-email-btn")
+    emailBtn.addEventListener("click",(e)=>{
+         copyEmailToClipboard()
+    }) 
+}     
+
+function copyEmailToClipboard() {
+    
 }
